@@ -69,7 +69,7 @@ resource "aws_iam_role" "cluster-autoscaler" {
       "Version" : "2012-10-17",
       "Statement" : [
         {
-          "Sid" : "Cluster-AutoScaler",
+          "Sid" : "ClusterAutoScaler",
           "Effect" : "Allow",
           "Action" : [
             "autoscaling:DescribeAutoScalingGroups",
